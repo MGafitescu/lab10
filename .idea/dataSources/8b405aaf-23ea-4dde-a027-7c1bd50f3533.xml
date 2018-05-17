@@ -4,9 +4,9 @@
     <root id="1"/>
     <schema id="2" parent="1" name="STUDENT">
       <ObjectId>48</ObjectId>
-      <IntrospectionTimestamp>2018-05-11.23:33:36</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-05-17.21:00:51</IntrospectionTimestamp>
       <CreatedTimestamp>2018-02-23.11:32:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-05-11.22:33:34</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-05-17.20:59:22</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -67,148 +67,173 @@
     <schema id="21" parent="1" name="XS$NULL">
       <ObjectId>2147483638</ObjectId>
     </schema>
-    <table id="22" parent="2" name="ALBUMS">
+    <sequence id="22" parent="2" name="ALBUM_ID_SEQ">
+      <ObjectId>27488</ObjectId>
+      <CreatedTimestamp>2018-05-12.01:19:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-12.01:19:14</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="2" name="ARTIST_ID_SEQ">
+      <ObjectId>27487</ObjectId>
+      <CreatedTimestamp>2018-05-12.01:03:55</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-12.01:03:55</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="2" name="CHARTS_SEQ">
+      <ObjectId>27584</ObjectId>
+      <CreatedTimestamp>2018-05-17.20:59:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-17.20:59:22</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="25" parent="2" name="ALBUMS">
       <ObjectId>27483</ObjectId>
       <CreatedTimestamp>2018-05-11.22:33:34</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.22:33:34</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="23" parent="2" name="ANTRENORI">
+    <table id="26" parent="2" name="ANTRENORI">
       <ObjectId>27228</ObjectId>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="24" parent="2" name="ARTISTS">
+    <table id="27" parent="2" name="ARTISTS">
       <ObjectId>27481</ObjectId>
       <CreatedTimestamp>2018-05-11.22:32:23</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.22:32:23</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="25" parent="2" name="CURSURI">
+    <table id="28" parent="2" name="CHARTS">
+      <ObjectId>27582</ObjectId>
+      <CreatedTimestamp>2018-05-17.20:58:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-17.20:58:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="29" parent="2" name="CURSURI">
       <ObjectId>27470</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="26" parent="2" name="DIDACTIC">
+    <table id="30" parent="2" name="DIDACTIC">
       <ObjectId>27476</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="27" parent="2" name="ECHIPE">
+    <table id="31" parent="2" name="ECHIPE">
       <ObjectId>27230</ObjectId>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="28" parent="2" name="ERASMUS">
+    <table id="32" parent="2" name="ERASMUS">
       <ObjectId>26413</ObjectId>
       <CreatedTimestamp>2018-03-30.11:11:00</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-30.11:11:00</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="29" parent="2" name="LOG_NOTE">
+    <table id="33" parent="2" name="LOG_NOTE">
       <ObjectId>27323</ObjectId>
       <CreatedTimestamp>2018-05-03.18:19:09</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-03.18:19:09</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="30" parent="2" name="NOTE">
+    <table id="34" parent="2" name="NOTE">
       <ObjectId>27472</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="31" parent="2" name="PRIETENI">
+    <table id="35" parent="2" name="PRIETENI">
       <ObjectId>27478</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="32" parent="2" name="PROFESORI">
+    <table id="36" parent="2" name="PROFESORI">
       <ObjectId>27474</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="33" parent="2" name="SERIALIZARE">
+    <table id="37" parent="2" name="SERIALIZARE">
       <ObjectId>27093</ObjectId>
       <CreatedTimestamp>2018-04-27.11:06:07</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-27.11:06:07</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="34" parent="2" name="STUDENTI">
+    <table id="38" parent="2" name="STUDENTI">
       <ObjectId>27468</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="35" parent="2" name="TABEL">
+    <table id="39" parent="2" name="TABEL">
       <ObjectId>25149</ObjectId>
       <CreatedTimestamp>2018-03-09.11:02:07</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-09.11:02:07</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="36" parent="2" name="TABEL_FORME">
+    <table id="40" parent="2" name="TABEL_FORME">
       <ObjectId>27092</ObjectId>
       <CreatedTimestamp>2018-04-27.11:06:07</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-27.11:06:07</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="37" parent="2" name="TEST">
+    <table id="41" parent="2" name="TEST">
       <ObjectId>27336</ObjectId>
       <CreatedTimestamp>2018-05-03.23:07:53</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-03.23:07:53</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="38" parent="2" name="USER_ACTIONS">
+    <table id="42" parent="2" name="USER_ACTIONS">
       <ObjectId>27330</ObjectId>
       <CreatedTimestamp>2018-05-03.21:09:13</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-03.21:09:13</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <view id="39" parent="2" name="BEST">
+    <view id="43" parent="2" name="BEST">
       <ObjectId>24612</ObjectId>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-02-23.11:32:12</CreatedTimestamp>
       <ModifiedTimestamp>2018-02-23.11:32:12</ModifiedTimestamp>
       <Modifiable>1</Modifiable>
     </view>
-    <view id="40" parent="2" name="FOTBAL">
+    <view id="44" parent="2" name="FOTBAL">
       <ObjectId>27234</ObjectId>
-      <DependsOnIds>27230,27228</DependsOnIds>
+      <DependsOnIds>27228,27230</DependsOnIds>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-04.11:45:22</ModifiedTimestamp>
       <Modifiable>1</Modifiable>
     </view>
-    <view id="41" parent="2" name="TABELE">
+    <view id="45" parent="2" name="TABELE">
       <ObjectId>24613</ObjectId>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-02-23.11:38:24</CreatedTimestamp>
       <ModifiedTimestamp>2018-02-23.11:43:31</ModifiedTimestamp>
       <Modifiable>1</Modifiable>
     </view>
-    <package id="42" parent="2" name="MANAGER">
+    <package id="46" parent="2" name="MANAGER">
       <ObjectId>25380</ObjectId>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-03-15.21:55:11</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-23.00:19:31</ModifiedTimestamp>
     </package>
-    <package id="43" parent="2" name="MANAGER_FACULTATE">
+    <package id="47" parent="2" name="MANAGER_FACULTATE">
       <ObjectId>25674</ObjectId>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-03-22.20:38:22</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-22.20:49:43</ModifiedTimestamp>
     </package>
-    <package id="44" parent="2" name="TEMA4">
+    <package id="48" parent="2" name="TEMA4">
       <ObjectId>25870</ObjectId>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-03-26.19:43:26</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-30.10:59:32</ModifiedTimestamp>
     </package>
-    <object-type id="45" parent="2" name="DREPTUNGHI">
+    <object-type id="49" parent="2" name="DREPTUNGHI">
       <ObjectId>26752</ObjectId>
       <DependsOnIds>26716</DependsOnIds>
       <CreatedTimestamp>2018-04-27.11:06:07</CreatedTimestamp>
@@ -218,42 +243,40 @@
       <Final>1</Final>
       <Instantiable>1</Instantiable>
     </object-type>
-    <object-type id="46" parent="2" name="FORMA">
+    <object-type id="50" parent="2" name="FORMA">
       <ObjectId>26716</ObjectId>
       <CreatedTimestamp>2018-04-27.11:06:06</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-27.11:06:06</ModifiedTimestamp>
       <Instantiable>1</Instantiable>
     </object-type>
-    <object-type id="47" parent="2" name="JURNAL">
+    <object-type id="51" parent="2" name="JURNAL">
       <ObjectId>26977</ObjectId>
       <CreatedTimestamp>2018-04-21.17:54:53</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-21.17:54:53</ModifiedTimestamp>
       <Final>1</Final>
       <Instantiable>1</Instantiable>
     </object-type>
-    <object-type id="48" parent="2" name="ISTORIC_BURSA"/>
-    <object-type id="49" parent="2" name="STUDENT"/>
-    <collection-type id="50" parent="2" name="ISTORIC_BURSA">
+    <collection-type id="52" parent="2" name="ISTORIC_BURSA">
       <ObjectId>25872</ObjectId>
       <CreatedTimestamp>2018-03-26.21:05:39</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-26.21:11:06</ModifiedTimestamp>
       <ElementType>NUMBER(6,2)|0</ElementType>
     </collection-type>
-    <routine id="51" parent="2" name="DB_EXPORTER">
+    <routine id="53" parent="2" name="DB_EXPORTER">
       <ObjectId>27370</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <DependsOnIds>4852,4973,4983,27468,27478</DependsOnIds>
       <CreatedTimestamp>2018-05-11.00:22:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:14:07</ModifiedTimestamp>
     </routine>
-    <routine id="52" parent="2" name="DB_IMPORTER">
+    <routine id="54" parent="2" name="DB_IMPORTER">
       <ObjectId>27371</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <DependsOnIds>4852,4973,4983,27468,27478</DependsOnIds>
       <CreatedTimestamp>2018-05-11.00:32:58</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:45:31</ModifiedTimestamp>
     </routine>
-    <routine id="53" parent="2" name="INSEREAZA">
+    <routine id="55" parent="2" name="INSEREAZA">
       <ObjectId>26056</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <Invalid>1</Invalid>
@@ -261,7 +284,7 @@
       <CreatedTimestamp>2018-03-28.12:44:29</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-28.12:45:04</ModifiedTimestamp>
     </routine>
-    <routine id="54" parent="2" name="MAJOREAZA">
+    <routine id="56" parent="2" name="MAJOREAZA">
       <ObjectId>26142</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <Invalid>1</Invalid>
@@ -269,33 +292,33 @@
       <CreatedTimestamp>2018-03-28.13:05:46</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-30.11:11:27</ModifiedTimestamp>
     </routine>
-    <routine id="55" parent="2" name="PRIETENI_MEDII">
+    <routine id="57" parent="2" name="PRIETENI_MEDII">
       <ObjectId>25357</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <Invalid>1</Invalid>
       <CreatedTimestamp>2018-03-15.18:10:06</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-19.23:38:38</ModifiedTimestamp>
     </routine>
-    <column id="56" parent="22" name="ID">
+    <column id="58" parent="25" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="57" parent="22" name="NAME">
+    <column id="59" parent="25" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="58" parent="22" name="ARTIST_ID">
+    <column id="60" parent="25" name="ARTIST_ID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="59" parent="22" name="RELEASE_YEAR">
+    <column id="61" parent="25" name="RELEASE_YEAR">
       <Position>4</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <index id="60" parent="22" name="SYS_C009375">
+    <index id="62" parent="25" name="SYS_C009375">
       <ObjectId>27484</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.22:33:34</CreatedTimestamp>
@@ -304,7 +327,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="61" parent="22" name="SYS_C009375">
+    <key id="63" parent="25" name="SYS_C009375">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.22:33:34</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -312,7 +335,7 @@
       <UnderlyingIndexName>SYS_C009375</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="62" parent="22" name="FK_ARTIST">
+    <foreign-key id="64" parent="25" name="FK_ARTIST">
       <ModifiedTimestamp>2018-05-11.22:33:34</ModifiedTimestamp>
       <ColNames>ARTIST_ID</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -320,27 +343,27 @@
       <RefKeyName>SYS_C009371</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="63" parent="23" name="ID">
+    <column id="65" parent="26" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="64" parent="23" name="NUME">
+    <column id="66" parent="26" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="65" parent="23" name="PRENUME">
+    <column id="67" parent="26" name="PRENUME">
       <Position>3</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="66" parent="23" name="VARSTA">
+    <column id="68" parent="26" name="VARSTA">
       <Position>4</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="67" parent="23" name="SYS_C009263">
+    <index id="69" parent="26" name="SYS_C009263">
       <ObjectId>27229</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
@@ -349,7 +372,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="68" parent="23" name="SYS_C009263">
+    <key id="70" parent="26" name="SYS_C009263">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -357,21 +380,21 @@
       <UnderlyingIndexName>SYS_C009263</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="69" parent="24" name="ID">
+    <column id="71" parent="27" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="70" parent="24" name="NAME">
+    <column id="72" parent="27" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="71" parent="24" name="COUNTRY">
+    <column id="73" parent="27" name="COUNTRY">
       <Position>3</Position>
       <DataType>VARCHAR2(100)|0</DataType>
     </column>
-    <index id="72" parent="24" name="SYS_C009371">
+    <index id="74" parent="27" name="SYS_C009371">
       <ObjectId>27482</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.22:32:23</CreatedTimestamp>
@@ -380,7 +403,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="73" parent="24" name="SYS_C009371">
+    <key id="75" parent="27" name="SYS_C009371">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.22:32:23</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -388,37 +411,79 @@
       <UnderlyingIndexName>SYS_C009371</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="74" parent="25" name="ID">
+    <column id="76" parent="28" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="75" parent="25" name="TITLU_CURS">
+    <column id="77" parent="28" name="ALBUM_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="78" parent="28" name="CONCERTS">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="79" parent="28" name="YEAR">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="80" parent="28" name="SYS_C009379">
+      <ObjectId>27583</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-05-17.20:58:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-17.20:58:38</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="28" name="SYS_C009379">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-05-17.20:58:38</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C009379</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="82" parent="28" name="FK_CHARTS">
+      <ModifiedTimestamp>2018-05-17.20:58:38</ModifiedTimestamp>
+      <ColNames>ALBUM_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>ALBUMS</RefTableName>
+      <RefKeyName>SYS_C009375</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="83" parent="29" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="29" name="TITLU_CURS">
       <Position>2</Position>
       <DataType>VARCHAR2(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="76" parent="25" name="AN">
+    <column id="85" parent="29" name="AN">
       <Position>3</Position>
       <DataType>NUMBER(1)|0</DataType>
     </column>
-    <column id="77" parent="25" name="SEMESTRU">
+    <column id="86" parent="29" name="SEMESTRU">
       <Position>4</Position>
       <DataType>NUMBER(1)|0</DataType>
     </column>
-    <column id="78" parent="25" name="CREDITE">
+    <column id="87" parent="29" name="CREDITE">
       <Position>5</Position>
       <DataType>NUMBER(2)|0</DataType>
     </column>
-    <column id="79" parent="25" name="CREATED_AT">
+    <column id="88" parent="29" name="CREATED_AT">
       <Position>6</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="80" parent="25" name="UPDATED_AT">
+    <column id="89" parent="29" name="UPDATED_AT">
       <Position>7</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="81" parent="25" name="SYS_C009346">
+    <index id="90" parent="29" name="SYS_C009346">
       <ObjectId>27471</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -427,7 +492,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="82" parent="25" name="SYS_C009346">
+    <key id="91" parent="29" name="SYS_C009346">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -435,30 +500,30 @@
       <UnderlyingIndexName>SYS_C009346</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="83" parent="26" name="ID">
+    <column id="92" parent="30" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="84" parent="26" name="ID_PROFESOR">
+    <column id="93" parent="30" name="ID_PROFESOR">
       <Position>2</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="85" parent="26" name="ID_CURS">
+    <column id="94" parent="30" name="ID_CURS">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="86" parent="26" name="CREATED_AT">
+    <column id="95" parent="30" name="CREATED_AT">
       <Position>4</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="87" parent="26" name="UPDATED_AT">
+    <column id="96" parent="30" name="UPDATED_AT">
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="88" parent="26" name="SYS_C009360">
+    <index id="97" parent="30" name="SYS_C009360">
       <ObjectId>27477</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -467,7 +532,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="89" parent="26" name="SYS_C009360">
+    <key id="98" parent="30" name="SYS_C009360">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -475,7 +540,7 @@
       <UnderlyingIndexName>SYS_C009360</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="90" parent="26" name="FK_DIDACTIC_ID_PROFESOR">
+    <foreign-key id="99" parent="30" name="FK_DIDACTIC_ID_PROFESOR">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_PROFESOR</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -483,7 +548,7 @@
       <RefKeyName>SYS_C009356</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="91" parent="26" name="FK_DIDACTIC_ID_CURS">
+    <foreign-key id="100" parent="30" name="FK_DIDACTIC_ID_CURS">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_CURS</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -491,32 +556,32 @@
       <RefKeyName>SYS_C009346</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="92" parent="27" name="ID_ECHIPA">
+    <column id="101" parent="31" name="ID_ECHIPA">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="93" parent="27" name="NUME_ECHIPA">
+    <column id="102" parent="31" name="NUME_ECHIPA">
       <Position>2</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="94" parent="27" name="ID_ANTRENOR">
+    <column id="103" parent="31" name="ID_ANTRENOR">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="95" parent="27" name="POZITIE">
+    <column id="104" parent="31" name="POZITIE">
       <Position>4</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="96" parent="27" name="PUNCTE">
+    <column id="105" parent="31" name="PUNCTE">
       <Position>5</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="97" parent="27" name="SYS_C009269">
+    <index id="106" parent="31" name="SYS_C009269">
       <ObjectId>27231</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
@@ -525,7 +590,7 @@
       <ColNames>ID_ECHIPA</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="98" parent="27" name="SYS_C009270">
+    <index id="107" parent="31" name="SYS_C009270">
       <ObjectId>27232</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
@@ -534,7 +599,7 @@
       <ColNames>ID_ANTRENOR</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="99" parent="27" name="SYS_C009271">
+    <index id="108" parent="31" name="SYS_C009271">
       <ObjectId>27233</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-02.21:31:36</CreatedTimestamp>
@@ -543,7 +608,7 @@
       <ColNames>POZITIE</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="100" parent="27" name="SYS_C009269">
+    <key id="109" parent="31" name="SYS_C009269">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <ColNames>ID_ECHIPA</ColNames>
@@ -551,21 +616,21 @@
       <UnderlyingIndexName>SYS_C009269</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="101" parent="27" name="SYS_C009270">
+    <key id="110" parent="31" name="SYS_C009270">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <ColNames>ID_ANTRENOR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>SYS_C009270</UnderlyingIndexName>
     </key>
-    <key id="102" parent="27" name="SYS_C009271">
+    <key id="111" parent="31" name="SYS_C009271">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <ColNames>POZITIE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>SYS_C009271</UnderlyingIndexName>
     </key>
-    <foreign-key id="103" parent="27" name="FK_ECHIPE">
+    <foreign-key id="112" parent="31" name="FK_ECHIPE">
       <ModifiedTimestamp>2018-05-02.21:31:36</ModifiedTimestamp>
       <ColNames>ID_ANTRENOR</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -573,27 +638,27 @@
       <RefKeyName>SYS_C009263</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="104" parent="28" name="NR_MATRICOL">
+    <column id="113" parent="32" name="NR_MATRICOL">
       <Position>1</Position>
       <DataType>VARCHAR2(6)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="105" parent="28" name="NUME">
+    <column id="114" parent="32" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="106" parent="28" name="PRENUME">
+    <column id="115" parent="32" name="PRENUME">
       <Position>3</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="107" parent="28" name="ID_TARA">
+    <column id="116" parent="32" name="ID_TARA">
       <Position>4</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="108" parent="28" name="ERASMUS_INDEX">
+    <index id="117" parent="32" name="ERASMUS_INDEX">
       <ObjectId>26414</ObjectId>
       <CreatedTimestamp>2018-03-30.11:11:00</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-30.11:11:00</ModifiedTimestamp>
@@ -601,46 +666,46 @@
       <ColNames>NR_MATRICOL</ColNames>
       <Unique>1</Unique>
     </index>
-    <column id="109" parent="29" name="DATA_MODIFICARII">
+    <column id="118" parent="33" name="DATA_MODIFICARII">
       <Position>1</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="110" parent="29" name="NUMAR_MODIFICARI">
+    <column id="119" parent="33" name="NUMAR_MODIFICARI">
       <Position>2</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="111" parent="30" name="ID">
+    <column id="120" parent="34" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="112" parent="30" name="ID_STUDENT">
+    <column id="121" parent="34" name="ID_STUDENT">
       <Position>2</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="113" parent="30" name="ID_CURS">
+    <column id="122" parent="34" name="ID_CURS">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="114" parent="30" name="VALOARE">
+    <column id="123" parent="34" name="VALOARE">
       <Position>4</Position>
       <DataType>NUMBER(2)|0</DataType>
     </column>
-    <column id="115" parent="30" name="DATA_NOTARE">
+    <column id="124" parent="34" name="DATA_NOTARE">
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="116" parent="30" name="CREATED_AT">
+    <column id="125" parent="34" name="CREATED_AT">
       <Position>6</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="117" parent="30" name="UPDATED_AT">
+    <column id="126" parent="34" name="UPDATED_AT">
       <Position>7</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="118" parent="30" name="SYS_C009350">
+    <index id="127" parent="34" name="SYS_C009350">
       <ObjectId>27473</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -649,7 +714,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="119" parent="30" name="SYS_C009350">
+    <key id="128" parent="34" name="SYS_C009350">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -657,7 +722,7 @@
       <UnderlyingIndexName>SYS_C009350</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="120" parent="30" name="FK_NOTE_ID_STUDENT">
+    <foreign-key id="129" parent="34" name="FK_NOTE_ID_STUDENT">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_STUDENT</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -665,7 +730,7 @@
       <RefKeyName>SYS_C009343</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="121" parent="30" name="FK_NOTE_ID_CURS">
+    <foreign-key id="130" parent="34" name="FK_NOTE_ID_CURS">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_CURS</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -673,30 +738,30 @@
       <RefKeyName>SYS_C009346</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="122" parent="31" name="ID">
+    <column id="131" parent="35" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="123" parent="31" name="ID_STUDENT1">
+    <column id="132" parent="35" name="ID_STUDENT1">
       <Position>2</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="124" parent="31" name="ID_STUDENT2">
+    <column id="133" parent="35" name="ID_STUDENT2">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="125" parent="31" name="CREATED_AT">
+    <column id="134" parent="35" name="CREATED_AT">
       <Position>4</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="126" parent="31" name="UPDATED_AT">
+    <column id="135" parent="35" name="UPDATED_AT">
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="127" parent="31" name="SYS_C009365">
+    <index id="136" parent="35" name="SYS_C009365">
       <ObjectId>27479</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -705,7 +770,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="128" parent="31" name="NO_DUPLICATES">
+    <index id="137" parent="35" name="NO_DUPLICATES">
       <ObjectId>27480</ObjectId>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
@@ -714,7 +779,7 @@
 ID_STUDENT2</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="129" parent="31" name="SYS_C009365">
+    <key id="138" parent="35" name="SYS_C009365">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -722,14 +787,14 @@ ID_STUDENT2</ColNames>
       <UnderlyingIndexName>SYS_C009365</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="130" parent="31" name="NO_DUPLICATES">
+    <key id="139" parent="35" name="NO_DUPLICATES">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_STUDENT1
 ID_STUDENT2</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>NO_DUPLICATES</UnderlyingIndexName>
     </key>
-    <foreign-key id="131" parent="31" name="FK_PRIETENI_ID_STUDENT1">
+    <foreign-key id="140" parent="35" name="FK_PRIETENI_ID_STUDENT1">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_STUDENT1</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -737,7 +802,7 @@ ID_STUDENT2</ColNames>
       <RefKeyName>SYS_C009343</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="132" parent="31" name="FK_PRIETENI_ID_STUDENT2">
+    <foreign-key id="141" parent="35" name="FK_PRIETENI_ID_STUDENT2">
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID_STUDENT2</ColNames>
       <RefSchemaName>STUDENT</RefSchemaName>
@@ -745,34 +810,34 @@ ID_STUDENT2</ColNames>
       <RefKeyName>SYS_C009343</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="133" parent="32" name="ID">
+    <column id="142" parent="36" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="134" parent="32" name="NUME">
+    <column id="143" parent="36" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="135" parent="32" name="PRENUME">
+    <column id="144" parent="36" name="PRENUME">
       <Position>3</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="136" parent="32" name="GRAD_DIDACTIC">
+    <column id="145" parent="36" name="GRAD_DIDACTIC">
       <Position>4</Position>
       <DataType>VARCHAR2(20)|0</DataType>
     </column>
-    <column id="137" parent="32" name="CREATED_AT">
+    <column id="146" parent="36" name="CREATED_AT">
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="138" parent="32" name="UPDATED_AT">
+    <column id="147" parent="36" name="UPDATED_AT">
       <Position>6</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="139" parent="32" name="SYS_C009356">
+    <index id="148" parent="36" name="SYS_C009356">
       <ObjectId>27475</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -781,7 +846,7 @@ ID_STUDENT2</ColNames>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="140" parent="32" name="SYS_C009356">
+    <key id="149" parent="36" name="SYS_C009356">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -789,63 +854,63 @@ ID_STUDENT2</ColNames>
       <UnderlyingIndexName>SYS_C009356</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="141" parent="33" name="ID_OBIECT">
+    <column id="150" parent="37" name="ID_OBIECT">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="142" parent="33" name="OBIECT">
+    <column id="151" parent="37" name="OBIECT">
       <Position>2</Position>
       <DataType>BLOB|0</DataType>
     </column>
-    <column id="143" parent="34" name="ID">
+    <column id="152" parent="38" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="144" parent="34" name="NR_MATRICOL">
+    <column id="153" parent="38" name="NR_MATRICOL">
       <Position>2</Position>
       <DataType>VARCHAR2(6)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="145" parent="34" name="NUME">
+    <column id="154" parent="38" name="NUME">
       <Position>3</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="146" parent="34" name="PRENUME">
+    <column id="155" parent="38" name="PRENUME">
       <Position>4</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="147" parent="34" name="AN">
+    <column id="156" parent="38" name="AN">
       <Position>5</Position>
       <DataType>NUMBER(1)|0</DataType>
     </column>
-    <column id="148" parent="34" name="GRUPA">
+    <column id="157" parent="38" name="GRUPA">
       <Position>6</Position>
       <DataType>CHAR(2)|0</DataType>
     </column>
-    <column id="149" parent="34" name="BURSA">
+    <column id="158" parent="38" name="BURSA">
       <Position>7</Position>
       <DataType>NUMBER(6,2)|0</DataType>
     </column>
-    <column id="150" parent="34" name="DATA_NASTERE">
+    <column id="159" parent="38" name="DATA_NASTERE">
       <Position>8</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="151" parent="34" name="EMAIL">
+    <column id="160" parent="38" name="EMAIL">
       <Position>9</Position>
       <DataType>VARCHAR2(40)|0</DataType>
     </column>
-    <column id="152" parent="34" name="CREATED_AT">
+    <column id="161" parent="38" name="CREATED_AT">
       <Position>10</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="153" parent="34" name="UPDATED_AT">
+    <column id="162" parent="38" name="UPDATED_AT">
       <Position>11</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="154" parent="34" name="SYS_C009343">
+    <index id="163" parent="38" name="SYS_C009343">
       <ObjectId>27469</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-05-11.12:13:30</CreatedTimestamp>
@@ -854,7 +919,7 @@ ID_STUDENT2</ColNames>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="155" parent="34" name="SYS_C009343">
+    <key id="164" parent="38" name="SYS_C009343">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-05-11.12:13:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -862,443 +927,442 @@ ID_STUDENT2</ColNames>
       <UnderlyingIndexName>SYS_C009343</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="156" parent="35" name="A">
+    <column id="165" parent="39" name="A">
       <Position>1</Position>
       <DataType>NUMBER(5)|0</DataType>
     </column>
-    <column id="157" parent="35" name="B">
+    <column id="166" parent="39" name="B">
       <Position>2</Position>
       <DataType>NUMBER(1)|0</DataType>
     </column>
-    <column id="158" parent="36" name="IDENTIFICATOR">
+    <column id="167" parent="40" name="IDENTIFICATOR">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="159" parent="36" name="OBIECT">
+    <column id="168" parent="40" name="OBIECT">
       <Position>2</Position>
       <DataType>FORMA|0</DataType>
     </column>
-    <column id="160" parent="37" name="A">
+    <column id="169" parent="41" name="A">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="161" parent="37" name="B">
+    <column id="170" parent="41" name="B">
       <Position>2</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="162" parent="38" name="DATA_ACTIUNII">
+    <column id="171" parent="42" name="DATA_ACTIUNII">
       <Position>1</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <column id="163" parent="38" name="NUME">
+    <column id="172" parent="42" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2(30)|0</DataType>
     </column>
-    <column id="164" parent="39" name="NUME">
+    <column id="173" parent="43" name="NUME">
       <Position>1</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="165" parent="39" name="BURSA">
+    <column id="174" parent="43" name="BURSA">
       <Position>2</Position>
       <DataType>NUMBER(6,2)|0</DataType>
     </column>
-    <column id="166" parent="40" name="ID">
+    <column id="175" parent="44" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="167" parent="40" name="NUME">
+    <column id="176" parent="44" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2(15)|0</DataType>
     </column>
-    <column id="168" parent="40" name="PRENUME">
+    <column id="177" parent="44" name="PRENUME">
       <Position>3</Position>
       <DataType>VARCHAR2(30)|0</DataType>
     </column>
-    <column id="169" parent="40" name="VARSTA">
+    <column id="178" parent="44" name="VARSTA">
       <Position>4</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="170" parent="40" name="ID_ECHIPA">
+    <column id="179" parent="44" name="ID_ECHIPA">
       <Position>5</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="171" parent="40" name="NUME_ECHIPA">
+    <column id="180" parent="44" name="NUME_ECHIPA">
       <Position>6</Position>
       <DataType>VARCHAR2(15)|0</DataType>
     </column>
-    <column id="172" parent="40" name="ID_ANTRENOR">
+    <column id="181" parent="44" name="ID_ANTRENOR">
       <Position>7</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="173" parent="40" name="POZITIE">
+    <column id="182" parent="44" name="POZITIE">
       <Position>8</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <column id="174" parent="40" name="PUNCTE">
+    <column id="183" parent="44" name="PUNCTE">
       <Position>9</Position>
       <DataType>NUMBER(*)|0</DataType>
     </column>
-    <trigger id="175" parent="40" name="INSERT_FOTBAL">
+    <trigger id="184" parent="44" name="INSERT_FOTBAL">
       <ObjectId>27236</ObjectId>
-      <DependsOnIds>4973,27230,27228</DependsOnIds>
+      <DependsOnIds>4973,27228,27230</DependsOnIds>
       <CreatedTimestamp>2018-05-02.21:50:20</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-03.02:12:10</ModifiedTimestamp>
       <Events>I</Events>
       <Turn>instead-of</Turn>
     </trigger>
-    <trigger id="176" parent="40" name="UPDATE_FOTBAL">
+    <trigger id="185" parent="44" name="UPDATE_FOTBAL">
       <ObjectId>27321</ObjectId>
-      <DependsOnIds>4973,27230,27228</DependsOnIds>
+      <DependsOnIds>4973,27228,27230</DependsOnIds>
       <CreatedTimestamp>2018-05-03.01:58:06</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-04.11:45:22</ModifiedTimestamp>
       <Events>U</Events>
       <Turn>instead-of</Turn>
     </trigger>
-    <trigger id="177" parent="40" name="DELETE_FOTBAL">
+    <trigger id="186" parent="44" name="DELETE_FOTBAL">
       <ObjectId>27237</ObjectId>
-      <DependsOnIds>27230,27228</DependsOnIds>
+      <DependsOnIds>27228,27230</DependsOnIds>
       <CreatedTimestamp>2018-05-02.22:10:51</CreatedTimestamp>
       <ModifiedTimestamp>2018-05-02.22:10:51</ModifiedTimestamp>
       <Events>D</Events>
       <Turn>instead-of</Turn>
     </trigger>
-    <column id="178" parent="41" name="Snume">
+    <column id="187" parent="45" name="Snume">
       <Position>1</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="179" parent="41" name="Sprenume">
+    <column id="188" parent="45" name="Sprenume">
       <Position>2</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="180" parent="41" name="SID">
+    <column id="189" parent="45" name="SID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="181" parent="41" name="Pnume">
+    <column id="190" parent="45" name="Pnume">
       <Position>4</Position>
       <DataType>VARCHAR2(15)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="182" parent="41" name="Pprenume">
+    <column id="191" parent="45" name="Pprenume">
       <Position>5</Position>
       <DataType>VARCHAR2(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="183" parent="41" name="PID">
+    <column id="192" parent="45" name="PID">
       <Position>6</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="184" parent="41" name="TITLU_CURS">
+    <column id="193" parent="45" name="TITLU_CURS">
       <Position>7</Position>
       <DataType>VARCHAR2(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="185" parent="41" name="CID">
+    <column id="194" parent="45" name="CID">
       <Position>8</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="186" parent="41" name="NID">
+    <column id="195" parent="45" name="NID">
       <Position>9</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="187" parent="41" name="DID">
+    <column id="196" parent="45" name="DID">
       <Position>10</Position>
       <DataType>NUMBER(*)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <body id="188" parent="42" name="MANAGER">
+    <body id="197" parent="46" name="MANAGER">
       <ObjectId>25381</ObjectId>
       <Invalid>1</Invalid>
       <DependsOnIds>117,4973,8960</DependsOnIds>
       <CreatedTimestamp>2018-03-15.21:56:12</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-23.01:40:24</ModifiedTimestamp>
     </body>
-    <routine id="189" parent="42" name="ADAUGA_STUDENT">
+    <routine id="198" parent="46" name="ADAUGA_STUDENT">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="190" parent="42" name="STERGE_STUDENT">
+    <routine id="199" parent="46" name="STERGE_STUDENT">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="191" parent="42" name="AFISEAZA_STUDENT">
+    <routine id="200" parent="46" name="AFISEAZA_STUDENT">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <body id="192" parent="43" name="MANAGER_FACULTATE">
+    <body id="201" parent="47" name="MANAGER_FACULTATE">
       <ObjectId>25675</ObjectId>
       <Invalid>1</Invalid>
       <DependsOnIds>117,4973</DependsOnIds>
       <CreatedTimestamp>2018-03-22.20:38:23</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-22.20:50:37</ModifiedTimestamp>
     </body>
-    <routine id="193" parent="43" name="INFORMATII_STUDENT">
+    <routine id="202" parent="47" name="INFORMATII_STUDENT">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="194" parent="43" name="STERGERE_STUDENT">
+    <routine id="203" parent="47" name="STERGERE_STUDENT">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <body id="195" parent="44" name="TEMA4">
+    <body id="204" parent="48" name="TEMA4">
       <ObjectId>25871</ObjectId>
       <Invalid>1</Invalid>
       <DependsOnIds>4851,4973,25872</DependsOnIds>
       <CreatedTimestamp>2018-03-26.19:43:27</CreatedTimestamp>
       <ModifiedTimestamp>2018-03-30.10:59:32</ModifiedTimestamp>
     </body>
-    <routine id="196" parent="44" name="MODIFICA_BURSA">
+    <routine id="205" parent="48" name="MODIFICA_BURSA">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="197" parent="44" name="AFISEAZA_MODIFICARI">
+    <routine id="206" parent="48" name="AFISEAZA_MODIFICARI">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <body id="198" parent="45" name="DREPTUNGHI">
+    <body id="207" parent="49" name="DREPTUNGHI">
       <ObjectId>26753</ObjectId>
       <DependsOnIds>4973</DependsOnIds>
       <CreatedTimestamp>2018-04-27.11:06:07</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-27.11:06:07</ModifiedTimestamp>
     </body>
-    <object-attribute id="199" parent="45" name="LATIME">
+    <object-attribute id="208" parent="49" name="LATIME">
       <Position>6</Position>
       <DataType>NUMBER|0</DataType>
     </object-attribute>
-    <object-attribute id="200" parent="45" name="LUNGIME">
+    <object-attribute id="209" parent="49" name="LUNGIME">
       <Position>7</Position>
       <DataType>NUMBER|0</DataType>
     </object-attribute>
-    <routine id="201" parent="45" name="AFISEAZA_TIP">
+    <routine id="210" parent="49" name="AFISEAZA_TIP">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="202" parent="45" name="SETEAZA_SUPRAFATA">
+    <routine id="211" parent="49" name="SETEAZA_SUPRAFATA">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <body id="203" parent="46" name="FORMA">
+    <body id="212" parent="50" name="FORMA">
       <ObjectId>26718</ObjectId>
       <DependsOnIds>4973</DependsOnIds>
       <CreatedTimestamp>2018-04-27.11:06:07</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-27.11:06:07</ModifiedTimestamp>
     </body>
-    <object-attribute id="204" parent="46" name="NUME">
+    <object-attribute id="213" parent="50" name="NUME">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </object-attribute>
-    <object-attribute id="205" parent="46" name="CULOARE">
+    <object-attribute id="214" parent="50" name="CULOARE">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </object-attribute>
-    <object-attribute id="206" parent="46" name="SUPRAFATA">
+    <object-attribute id="215" parent="50" name="SUPRAFATA">
       <Position>3</Position>
       <DataType>NUMBER|0</DataType>
     </object-attribute>
-    <object-attribute id="207" parent="46" name="COORD_X">
+    <object-attribute id="216" parent="50" name="COORD_X">
       <Position>4</Position>
       <DataType>NUMBER|0</DataType>
     </object-attribute>
-    <object-attribute id="208" parent="46" name="COORD_Y">
+    <object-attribute id="217" parent="50" name="COORD_Y">
       <Position>5</Position>
       <DataType>NUMBER|0</DataType>
     </object-attribute>
-    <routine id="209" parent="46" name="AFISEAZA_NUME">
+    <routine id="218" parent="50" name="AFISEAZA_NUME">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="210" parent="46" name="AFISEAZA_CULOARE">
+    <routine id="219" parent="50" name="AFISEAZA_CULOARE">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="211" parent="46" name="AFISEAZA_POZITIE">
+    <routine id="220" parent="50" name="AFISEAZA_POZITIE">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="212" parent="46" name="AFISEAZA_TIP">
+    <routine id="221" parent="50" name="AFISEAZA_TIP">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="213" parent="46" name="SUPRAFATA_FORMA">
+    <routine id="222" parent="50" name="SUPRAFATA_FORMA">
       <RoutineKind>function</RoutineKind>
     </routine>
-    <routine id="214" parent="46" name="SETEAZA_SUPRAFATA">
+    <routine id="223" parent="50" name="SETEAZA_SUPRAFATA">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="215" parent="46" name="SETEAZA_POZITIA">
+    <routine id="224" parent="50" name="SETEAZA_POZITIA">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="216" parent="46" name="FORMA">
+    <routine id="225" parent="50" name="FORMA">
       <RoutineKind>function</RoutineKind>
     </routine>
-    <body id="217" parent="47" name="JURNAL">
+    <body id="226" parent="51" name="JURNAL">
       <ObjectId>26978</ObjectId>
       <DependsOnIds>4973</DependsOnIds>
       <CreatedTimestamp>2018-04-21.17:54:58</CreatedTimestamp>
       <ModifiedTimestamp>2018-04-21.17:55:39</ModifiedTimestamp>
     </body>
-    <object-attribute id="218" parent="47" name="TITLU">
+    <object-attribute id="227" parent="51" name="TITLU">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </object-attribute>
-    <object-attribute id="219" parent="47" name="AUTOR">
+    <object-attribute id="228" parent="51" name="AUTOR">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </object-attribute>
-    <object-attribute id="220" parent="47" name="AN_APARITIE">
+    <object-attribute id="229" parent="51" name="AN_APARITIE">
       <Position>3</Position>
       <DataType>INTEGER|0</DataType>
     </object-attribute>
-    <routine id="221" parent="47" name="AFISEAZA_AN">
+    <routine id="230" parent="51" name="AFISEAZA_AN">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <routine id="222" parent="47" name="JURNAL">
+    <routine id="231" parent="51" name="JURNAL">
       <RoutineKind>function</RoutineKind>
     </routine>
-    <body id="223" parent="49" name="STUDENT"/>
-    <argument id="224" parent="54" name="P_ID">
+    <argument id="232" parent="56" name="P_ID">
       <Position>1</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="225" parent="189" name="P_NUME">
+    <argument id="233" parent="198" name="P_NUME">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="226" parent="189" name="P_PRENUME">
+    <argument id="234" parent="198" name="P_PRENUME">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="227" parent="190" name="P_NR_MATRICOL">
+    <argument id="235" parent="199" name="P_NR_MATRICOL">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="228" parent="191" name="P_NUME">
+    <argument id="236" parent="200" name="P_NUME">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="229" parent="191" name="P_PRENUME">
+    <argument id="237" parent="200" name="P_PRENUME">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="230" parent="193" name="NUMAR_MATRICOL">
+    <argument id="238" parent="202" name="NUMAR_MATRICOL">
       <Position>1</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="231" parent="194" name="P_ID_STUDENT">
+    <argument id="239" parent="203" name="P_ID_STUDENT">
       <Position>1</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="232" parent="196" name="V_ID">
+    <argument id="240" parent="205" name="V_ID">
       <Position>1</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="233" parent="196" name="V_LISTA">
+    <argument id="241" parent="205" name="V_LISTA">
       <Position>1</Position>
       <DataType>TEMA4|0</DataType>
     </argument>
-    <argument id="234" parent="196" name="V_PROCENT">
+    <argument id="242" parent="205" name="V_PROCENT">
       <Position>2</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="235" parent="201" name="SELF">
+    <argument id="243" parent="210" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>DREPTUNGHI|0</DataType>
     </argument>
-    <argument id="236" parent="202" name="SELF">
+    <argument id="244" parent="211" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>DREPTUNGHI|0</DataType>
     </argument>
-    <argument id="237" parent="202" name="LATIME">
+    <argument id="245" parent="211" name="LATIME">
       <Position>2</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="238" parent="202" name="LUNGIME">
+    <argument id="246" parent="211" name="LUNGIME">
       <Position>3</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="239" parent="209" name="SELF">
+    <argument id="247" parent="218" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="240" parent="210" name="SELF">
+    <argument id="248" parent="219" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="241" parent="211" name="SELF">
+    <argument id="249" parent="220" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="242" parent="212" name="SELF">
+    <argument id="250" parent="221" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="243" parent="213">
+    <argument id="251" parent="222">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="244" parent="213" name="SELF">
+    <argument id="252" parent="222" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>S</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="245" parent="214" name="SELF">
+    <argument id="253" parent="223" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="246" parent="214" name="SUPRAFATA">
+    <argument id="254" parent="223" name="SUPRAFATA">
       <Position>2</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="247" parent="215" name="SELF">
+    <argument id="255" parent="224" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="248" parent="215" name="X">
+    <argument id="256" parent="224" name="X">
       <Position>2</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="249" parent="215" name="Y">
+    <argument id="257" parent="224" name="Y">
       <Position>3</Position>
       <DataType>NUMBER|0</DataType>
     </argument>
-    <argument id="250" parent="216">
+    <argument id="258" parent="225">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="251" parent="216" name="SELF">
+    <argument id="259" parent="225" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>FORMA|0</DataType>
     </argument>
-    <argument id="252" parent="216" name="NUME">
+    <argument id="260" parent="225" name="NUME">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="253" parent="216" name="CULOARE">
+    <argument id="261" parent="225" name="CULOARE">
       <Position>3</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="254" parent="221" name="SELF">
+    <argument id="262" parent="230" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>JURNAL|0</DataType>
     </argument>
-    <argument id="255" parent="222">
+    <argument id="263" parent="231">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>JURNAL|0</DataType>
     </argument>
-    <argument id="256" parent="222" name="SELF">
+    <argument id="264" parent="231" name="SELF">
       <Position>1</Position>
       <ArgumentDirection>M</ArgumentDirection>
       <DataType>JURNAL|0</DataType>
     </argument>
-    <argument id="257" parent="222" name="TITLU">
+    <argument id="265" parent="231" name="TITLU">
       <Position>2</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>
-    <argument id="258" parent="222" name="AUTOR">
+    <argument id="266" parent="231" name="AUTOR">
       <Position>3</Position>
       <DataType>VARCHAR2|0</DataType>
     </argument>

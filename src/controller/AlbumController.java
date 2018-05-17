@@ -13,13 +13,7 @@ public class AlbumController {
     public AlbumController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    public void create(Albums album) {
-        EntityManager em = emf.createEntityManager();
-        em.getTransaction().begin();
-        em.persist(album);
-        em.getTransaction().commit();
-        em.close();
-    }
+
     public List<Albums> findByName(String artistName) {
         EntityManager em = emf.createEntityManager();
         ArtistController artistController = new ArtistController(emf);
